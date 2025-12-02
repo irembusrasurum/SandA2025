@@ -39,7 +39,7 @@ Performance: The model is optimized by being loaded only once using the @st.cach
 Accessibility: The application is exposed to the internet via localtunnel when running on Colab.
 
 
-#Week 7
+# Week 7
 Generative Art with Stable Diffusion
 
 This week, we created AI images from text prompts using the Stable Diffusion model. The Hugging Face 'diffusers' library was utilized.
