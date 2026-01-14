@@ -63,53 +63,52 @@ Example Outputs
 
 
 # Week 9: Integrated AI Interface
-
-[cite_start]This project merges the previous weeks' Chatbot and Generative Art projects into a single, unified Streamlit application[cite: 2].
+This project merges the previous weeks' Chatbot and Generative Art projects into a single, unified Streamlit application.
 
 ### Features
-- [cite_start]**Dual Mode:** Users can switch between "Chat Mode" and "Art Mode" using a sidebar menu[cite: 2].
-- [cite_start]**Unified Engine:** Runs on Google Colab using free models from Hugging Face[cite: 2, 12].
+- **Dual Mode:** Users can switch between "Chat Mode" and "Art Mode" using a sidebar menu.
+- **Unified Engine:** Runs on Google Colab using free models from Hugging Face.
 
 ### Implementation
-- [cite_start]**Chat:** Built with the `transformers` library using models like Flan-T5[cite: 2, 13].
-- [cite_start]**Art:** Powered by `diffusers` using the Stable Diffusion model[cite: 2, 13].
+- **Chat:** Built with the `transformers` library using models like Flan-T5.
+- **Art:** Powered by `diffusers` using the Stable Diffusion model.
 
 # Week 10: Creativity Parameters & Optimization
 
-[cite_start]This week focuses on how hyper-parameters affect the outputs of Generative AI[cite: 2].
+This week focuses on how hyper-parameters affect the outputs of Generative AI.
 
 ### Tested Parameters
-1. **Temperature:** Controlled the randomness. [cite_start]Lower values (0.2) made the chatbot more factual; higher values (0.9) made it more creative but less predictable[cite: 2].
-2. [cite_start]**Max Length:** Adjusted the length of the generated responses[cite: 2].
-3. [cite_start]**Top_p:** Used to filter the cumulative probability of next-token candidates[cite: 2].
+1. **Temperature:** Controlled the randomness. [cite_start]Lower values (0.2) made the chatbot more factual; higher values (0.9) made it more creative but less predictable.
+2. **Max Length:** Adjusted the length of the generated responses.
+3. **Top_p:** Used to filter the cumulative probability of next-token candidates.
 
 ### Conclusion
 By optimizing these values, we can balance the "Science" (accuracy) and "Art" (creativity) of the model's output.
 
 # Week 11: Image Processing & Filters
 
-[cite_start]In this phase, we added an extra layer of "Art" by allowing manual manipulation of AI-generated images[cite: 3].
+In this phase, we added an extra layer of "Art" by allowing manual manipulation of AI-generated images.
 
 ### Features
-- [cite_start]**Filter Integration:** Used `Pillow` and `OpenCV` to apply artistic styles[cite: 3].
+- **Filter Integration:** Used `Pillow` and `OpenCV` to apply artistic styles.
 - **User Choice:** A dropdown menu in the Streamlit UI lets users choose between:
-  - [cite_start]**Grayscale:** For a classic look[cite: 3].
-  - [cite_start]**Blur:** For a soft, dreamlike effect[cite: 3].
-  - [cite_start]**Edge Detection:** To highlight the structural "Science" of the image[cite: 3].
+  - **Grayscale:** For a classic look.
+  - **Blur:** For a soft, dreamlike effect.
+  - **Edge Detection:** To highlight the structural "Science" of the image.
  
  # Final Project: The Science & Art AI Suite
 
-[cite_start]This is the final version of the course project, representing a complete pipeline from setup to deployment[cite: 3].
+This is the final version of the course project, representing a complete pipeline from setup to deployment.
 
 ### Final Steps
-- [cite_start]**UI Finalization:** Cleaned up the interface for a better user experience[cite: 3].
-- [cite_start]**Deployment:** The app is hosted live using **Streamlit Cloud**[cite: 3, 16].
+- **UI Finalization:** Cleaned up the interface for a better user experience.
+- **Deployment:** The app is hosted live using **Streamlit Cloud**.
 
 
 ### Technologies Used
-- [cite_start]Google Colab (Development) [cite: 12]
-- [cite_start]Streamlit (Web UI) [cite: 14]
-- [cite_start]Hugging Face Models (AI Engine) [cite: 13]
+-Google Colab (Development) 
+- Streamlit (Web UI)
+- Hugging Face Models (AI Engine)
 
 # Week 13: Containerization with Docker
 
